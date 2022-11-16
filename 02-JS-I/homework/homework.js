@@ -4,19 +4,19 @@
 const nuevaString = 'hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = '7';
+const nuevoNum = 7;
 
 // Crea una variable booleana:
-const nuevoBool = 'true';
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - '5' === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * '4' === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === '1';
+const nuevoModulo = 21 % 5 === false;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,14 +28,14 @@ const nuevoModulo = 21 % 5 === '1';
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
+return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x+y;
+  return x + y;
 }
 
 function resta(x, y) {
@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length==str2.length 
+  return str1.length === str2.length;
   
 }
 
@@ -97,7 +97,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x-y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -138,7 +138,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow(num,exponente);
+  return Math.pow(num,exponent);
 
 }
 
@@ -194,7 +194,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola'+'nombre'+'!';
+  return 'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
